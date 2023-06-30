@@ -31,6 +31,6 @@ Route::middleware([
 });
 
 Route::resource('/roles',RoleController::class)->names('roles');
-Route::resource('/users',UserController::class)->names('users');
 Route::resource('/permissions',PermissionController::class)->names('permissions');
+Route::resource('/users',UserController::class)->names('users');
 
