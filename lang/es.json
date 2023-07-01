@@ -73,6 +73,7 @@
     "Last used": "Usado por última vez",
     "Leave": "Abandonar",
     "Leave Team": "Abandonar equipo",
+    "list of roles": "listado de roles",
     "Log in": "Iniciar sesión",
     "Log Out": "Finalizar sesión",
     "Log Out Other Browser Sessions": "Cerrar las demás sesiones",
@@ -186,6 +187,5 @@
     "You may delete any of your existing tokens if they are no longer needed.": "Puede eliminar cualquiera de sus tokens existentes si ya no los necesita.",
     "You may not delete your personal team.": "No se puede borrar su equipo personal.",
     "You may not leave a team that you created.": "No se puede abandonar un equipo que usted creó.",
-    "Your email address is unverified.": "Su dirección de correo electrónico no está verificada.",
-    "list of roles":"listado de roles"
+    "Your email address is unverified.": "Su dirección de correo electrónico no está verificada."
 }

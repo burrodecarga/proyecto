@@ -35,6 +35,7 @@
                 </div>
             </header>
         @endif
+        <x-flash-message/>
 
         <!-- Page Content -->
         <main>
@@ -51,6 +52,13 @@
 
     @stack('script')
     @livewireScripts
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#alert').remove()
+            }, 500)
+        })
+    </script>
 </body>
 
 </html>

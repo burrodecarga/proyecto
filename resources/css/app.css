@@ -20,3 +20,8 @@
 .verde{
     @apply text-green-500 hover:text-green-700 border-green-500;
 }
+
+label > select{
+    width:70px;
+}
+
