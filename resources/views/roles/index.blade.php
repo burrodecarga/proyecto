@@ -1,6 +1,13 @@
 <x-app-layout>
+    <div class="text-center mx-auto">
+
+        <a href="{{ route('roles.create') }}" >
+            <i class="icono azul text-center my-5 fas fa-plus-square"></i>
+        </a>
+    </div>
     <x-marco class="max-w-3xl">
-        <x-slot name="titulo">{{ __('list of roles') }}</x-slot>
+
+            <x-slot name="titulo">{{ __('list of roles') }} </x-slot>
 
         <table id="roles" class="stripe" style="width:100%">
             <thead>
@@ -59,6 +66,7 @@
                     }],
 
                 });
+
             });
         </script>
     @endpush
