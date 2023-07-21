@@ -56,7 +56,7 @@
         $(document).ready(function() {
             setTimeout(function() {
                 $('#alert').remove()
-            }, 500)
+            }, 1500)
         })
     </script>
 </body>

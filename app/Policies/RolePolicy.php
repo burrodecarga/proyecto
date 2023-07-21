@@ -2,9 +2,9 @@
 
 namespace App\Policies;
 
-use App\Models\Role;
 use App\Models\User;
 use Illuminate\Auth\Access\Response;
+use Spatie\Permission\Models\Role;
 
 class RolePolicy
 {
@@ -45,7 +45,7 @@ class RolePolicy
      */
     public function delete(User $user, Role $role): bool
     {
-        if($user->role=='admin' || $user->role=='super-admin' || $user->role=='owner'){
+        if($role->name=='admin' || $role->name=='super-admin' || $role->name=='owner'){
             return false;
         }else return true;
     }
